@@ -533,12 +533,10 @@ void shootshift() {
   else if (angle_ball >= 220)        shoot();
   else if (angle_ball <  170)        shoot();
   else if (angle_ball >  130)        shoot();
-  else if (angle_ball <  130)        shoot();
   else                           come_back();
   if (angle_ball < Walll_Distance)  move(12);
   else if (angle_ball <= 270)        shoot();
   else if (angle_ball <  180)        shoot();
   else if (angle_ball >  130)        shoot();
-  else if (angle_ball <  130)        shoot();
   else                           come_back();
 }
